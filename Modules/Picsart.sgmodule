@@ -1,11 +1,11 @@
-#!name=Unlock Picsart
-#!desc=Picsart
+#!name= Picsart
+#!desc= Unlock Pro
 
 [Header Rewrite]
 ^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json header-del if-none-match
 
-[Script]
-Picsart = type=http-response,pattern=^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zozocao/SurgeLK/main/scripts/zozocao/picsart.js
-
 [MITM]
-hostname = %APPEND% api.picsart.c*, api.meiease.c*
+hostname = %APPEND% api.picsart.com
+
+[Script]
+http-request https://api.picsart.com/gw-v2/shop/subscription/apple/purchases, requires-body=true, timeout=5, script-path=https://patexiungon.vercel.app/Scripts/picsart.js
