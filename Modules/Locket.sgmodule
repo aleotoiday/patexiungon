@@ -4,4 +4,4 @@
 [MITM]
 hostname= api.revenuecat.com
 [Script]
-Locket = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), requires-body=true, max-size=-1, timeout=60, script-path=https://raw.githubusercontent.com/aleotoiday/patexiungon/refs/heads/master/Scripts/locket.js
+Locket = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), requires-body=true, max-size=-1, timeout=60, script-path=https://patexiungon.vercel.app/Scripts/locket.js
