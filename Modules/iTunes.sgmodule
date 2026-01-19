@@ -1,0 +1,7 @@
+#!name= iTunes
+#!desc= Unlock Any iTunes
+
+[MITM]
+hostname = %APPEND% buy.itunes.apple.com
+[Script]
+iTunes=type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,script-path=https://patexiungon.vercel.app/Scripts/iTunes.js
