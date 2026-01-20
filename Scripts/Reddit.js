@@ -1,14 +1,45 @@
-var obj = JSON.parse($response.body);
-obj['has_gold_subscription'] = true;
-obj['pref_autoplay'] = false;
-obj['has_subscribed_to_premium'] = true;
-obj['has_visited_new_profile'] = true;
-obj['pref_video_autoplay'] = false;
-obj['features']['promoted_trend_blanks'] = false;
-obj['is_mod'] = true;
-obj['is_gold'] = true;
-obj['has_ios_subscription'] = true;
-obj['seen_premium_adblock_modal'] = true;
-obj['can_edit_name'] = true;
-obj['has_external_account'] = true;
-$done({body: JSON.stringify(obj)});
+const opName = $request?.operationName || "";
+
+let body;
+
+if (/Ads/i.test(opName)) {
+  $done({ body: "{}" });
+} else {
+  try {
+    body = JSON.parse(
+      $response.body
+        .replace(/"isObfuscated":true/g, '"isObfuscated":false')
+        .replace(/"obfuscatedPath":"[^"]*"/g, '"obfuscatedPath":null')
+        .replace(/"isNsfw":true/g, '"isNsfw":false')
+        .replace(/"isAdPersonalizationAllowed":true/g, '"isAdPersonalizationAllowed":false')
+        .replace(/"isThirdPartyInfoAdPersonalizationAllowed":true/g, '"isThirdPartyInfoAdPersonalizationAllowed":false')
+        .replace(/"isNsfwMediaBlocked":true/g, '"isNsfwMediaBlocked":false')
+        .replace(/"isNsfwContentShown":true/g, '"isNsfwContentShown":false')
+        .replace(/"isPremiumMember":false/g, '"isPremiumMember":true')
+        .replace(/"isEmployee":false/g, '"isEmployee":true')
+    );
+
+    const data = body.data ?? {};
+
+    Object.keys(data).forEach((key) => {
+      const items = data[key]?.timeline?.instructions;
+      if (!Array.isArray(items)) return;
+
+      data[key].timeline.instructions = items.filter(({ node }) => {
+        if (!node) return true;
+        if (node.__typename === "DxeQL") return false;
+        if (node.adPayload) return false;
+        if (Array.isArray(node.cells)) {
+          return !node.cells.some((cell) => cell?.__typename === "Ad");
+        }
+        return true;
+      });
+    });
+
+    body = JSON.stringify(body);
+  } catch (err) {
+    console.log("Parse Error:", err);
+  } finally {
+    $done(body ? { body } : {});
+  }
+}
