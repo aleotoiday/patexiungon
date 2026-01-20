@@ -1,8 +1,7 @@
-#!name=Unlock Reddit
-#!desc=Reddit
-
-[Script]
-Reddit = type=http-response,pattern=^https:\/\/oauth\.reddit\.com\/api\/v\d\/me\.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zozocao/SurgeLK/main/scripts/zozocao/Reddit.js
+#!name= Unlock Reddit
+#!desc= Reddit
 
 [MITM]
-hostname = %APPEND% oauth.reddit.com
+hostname= %APPEND% gql-fed.reddit.com
+[Script]
+Reddit=type=http-response,pattern=^https?:\/\/gql-fed\.reddit\.com\/.*,requires-body=1,max-size=0,script-path=https://patexiungon.vercel.app/Scripts/Reddit.js
