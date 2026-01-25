@@ -1,0 +1,9 @@
+#!name= VSCO
+#!desc= Unlock Pro
+
+[MITM]
+hostname = api.revenuecat.com
+
+[Script]
+vsco = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), requires-body=true, timeout=5, script-path=https://patexiungon.vercel.app/Scripts/vsco.js
+vscoo = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers(\/.*?)?$), requires-body=true, timeout=5, script-path=https://patexiungon.vercel.app/Scripts/vscoo.js
