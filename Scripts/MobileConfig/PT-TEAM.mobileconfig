@@ -19,14 +19,14 @@
             </dict>
             <key>PayloadDisplayName</key>
             <string>PT TEAM</string>
-            <key>PayloadOrganization</key>
-            <string>Nguyễn Thanh Hoàng</string>
             <key>PayloadIdentifier</key>
             <string>com.ptteam.dns.35a2a3</string>
+            <key>PayloadOrganization</key>
+            <string>PT</string>
             <key>PayloadType</key>
             <string>com.apple.dnsSettings.managed</string>
             <key>PayloadUUID</key>
-            <string>c6baca6c-6ca1-4675-b905-4bb88d1dc24c</string>
+            <string>e4e573c4-fa02-4fe8-abc3-f9c3db380f66</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
         </dict>
@@ -34,17 +34,15 @@
     <key>PayloadDisplayName</key>
     <string>PT TEAM</string>
     <key>PayloadOrganization</key>
-    <string>Nguyễn Thanh Hoàng</string>
+    <string>PT</string>
     <key>PayloadDescription</key>
     <string>© 2025 PT TEAM
 
 Profile DNS - PT TEAM
 
-• Chặn quảng cáo & trình theo dõi.
+• Chặn quảng cáo &amp; trình theo dõi.
 • Bỏ qua xác thực bản quyền.
-• Nâng cao quyền riêng tư.
-
-CONFIG ID: 35a2a3</string>
+• Nâng cao quyền riêng tư.</string>
     <key>PayloadIdentifier</key>
     <string>com.ptteam.systemprofile</string>
     <key>PayloadRemovalDisallowed</key>
@@ -52,7 +50,7 @@ CONFIG ID: 35a2a3</string>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>b9743808-4cd2-4bef-a5a6-20aaa43297d8</string>
+    <string>5ff1a726-0b11-4001-96e4-693e70cf6d75</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
 </dict>
