@@ -1,0 +1,7 @@
+#!name= Prism
+#!desc= Unlock Plus
+
+[MITM]
+hostname = apis.naver.com
+[Script]
+Prism = type=http-response,pattern=^https:\/\/apis\.naver\.com\/prism\/prism-auth-api\/.*,requires-body=1,max-size=0,script-path=https://patexiungon.vercel.app/Scripts/prism.js
