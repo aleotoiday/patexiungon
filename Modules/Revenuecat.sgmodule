@@ -2,15 +2,7 @@
 #!desc= Unlock Any Revenuecat
 
 [MITM]
-hostname = %APPEND% api.revenuecat.com, api.rc-backup.com, firebaseremoteconfig.googleapis.com
-
-[Header Rewrite]
-https:\/\/api\.revenuecat\.com header-del x-revenuecat-etag
-
-^https:\/\/firebaseremoteconfig\.googleapis\.com header-del if-none-match
-
-[Map Local]
-^https:\/\/firebaseremoteconfig\.googleapis\.com\/v\d\/projects data="https://patexiungon.vercel.app/Scripts/Mocks/firebase.json"
+hostname = %APPEND% api.revenuecat.com, api.rc-backup.com
 
 [Script]
 RevenueCat = type=http-response, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/[^/]+$), requires-body=true, max-size=-1, timeout=60, script-path=https://patexiungon.vercel.app/Scripts/revenuecat.js
