@@ -18,9 +18,9 @@
                 <string>35a2a3.dns.nextdns.io</string>
             </dict>
             <key>PayloadDisplayName</key>
-            <string>PT TEAM</string>
+            <string>Cáa</string>
             <key>PayloadIdentifier</key>
-            <string>com.ptteam.dns.35a2a3</string>
+            <string>com.ca.dns.35a2a3</string>
             <key>PayloadOrganization</key>
             <string>PT</string>
             <key>PayloadType</key>
@@ -32,19 +32,19 @@
         </dict>
     </array>
     <key>PayloadDisplayName</key>
-    <string>PT TEAM</string>
+    <string>Cáa</string>
     <key>PayloadOrganization</key>
-    <string>PT</string>
+    <string>Cáa</string>
     <key>PayloadDescription</key>
-    <string>© 2025 PT TEAM
+    <string>© 2025 Cáa
 
-Profile DNS - PT TEAM
+Profile DNS - Cáa
 
 • Chặn quảng cáo &amp; trình theo dõi.
 • Bỏ qua xác thực bản quyền.
 • Nâng cao quyền riêng tư.</string>
     <key>PayloadIdentifier</key>
-    <string>com.ptteam.systemprofile</string>
+    <string>com.ca.systemprofile</string>
     <key>PayloadRemovalDisallowed</key>
     <false/>
     <key>PayloadType</key>
