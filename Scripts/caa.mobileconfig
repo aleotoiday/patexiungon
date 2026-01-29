@@ -18,49 +18,27 @@
                 <string>35a2a3.dns.nextdns.io</string>
             </dict>
             <key>PayloadDisplayName</key>
-            <string>Cá</string>
+            <string>Cáa</string>
             <key>PayloadIdentifier</key>
             <string>com.ca.dns.35a2a3</string>
             <key>PayloadOrganization</key>
-            <string>Cá</string>
+            <string>Cáa</string>
             <key>PayloadType</key>
             <string>com.apple.dnsSettings.managed</string>
             <key>PayloadUUID</key>
             <string>e4e573c4-fa02-4fe8-abc3-f9c3db380f66</string>
             <key>PayloadVersion</key>
-            <integer>1</integer>
-        </dict>
-        <dict>
-            <key>PayloadCertificateFileName</key>
-            <string>caa.crt</string>
-            <key>PayloadContent</key>
-            <data>
-LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tDQpNSUlEcHpDQ0FvK2dBd0lCQWdJVWV6OTlqMVB5elRmb0J6THVPeHlySFdlUDNaa3dEUVlKS29aSWh2Y05BUUVMDQpCUUF3WXpFTE1Ba0dBMVVFQmhNQ1ZrNHhEekFOQmdOVkJBZ01DQkFBV1l6RUxNQWtHQTFVRUJoTUNWazR4RHpBTgpCZ05WQkFjTUJraGhJRTV2YVRFUE1BMEdBMVVFQnd3R1NHRWdUbTlwTVJZd0ZBWURWUVFLREExR2FYTm9JRk5sDQpZM1Z5YVhSNU1Sb3dHQVlEVlFRRERCRkdTVk5JTFUxSlZFMGdUbTl2ZENCRFFUQWVGdzB5TmpBeE1qa3dORE01DQpNVEphRncweU9UQXhNamd3TkRNNU1USmFNR014Q3pBSkJnTlZCQVlUQWxaT01ROHdEUVlEVlFRSURBWklZU0JPDQpiMmt4RHpBTkJnTlZCQWdNQmtoaElFNXZhVEVXTUJRR0ExVUVDZ3dOUm1semFDQlRaV04xY21sMGVURWFNQmdHDQpBMVVFQXd3UlJrbFRTQzFOU1ZSTklGSnZiM1FnUTBFd2dnRWlNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0SUJEd0F3DQpnZ0VLQW9JQkFRQzRORFUyaWNicFlNRlczd0lXejkwZjAwajl4NHpDc2lRb1dKZ0hkdUw4SnN3TFFORkRWR3Q0DQpRZnZHNnhVT0hYNVVoVERXcjhNQStlMm9hUzF1bndzLzZQSzZxTlBrMGRZdjB1Y3YvMnNXOWgxNStqU2NxVDZ0DQpwYW1mOU1tTVVSYmRNRVUxaHNML3lWdWdHTnM5SVRCa3U0Ukxzc1FROFRVZDFMQzJZdDIva2VlRDluck5UNnVoDQpxL1BESkp0eVZncjZrbTl0SFZYNEJkZzV5cXBsWmt6d2JhV2kwdFhTaHg0ZXU4SVJ4RG5id2JlbG8xbnBxRVViaA0KMWtidldOK0hLMjhjZituRjBBNXNDSHBJRHErRURDZmFnRjI5UHJJdXBCR1lrcHl5VE5mdGt2Z1dmK3pZL0txbw0KRjVnWVFwbXZ4aGhsT3Q3U0d1dlRLaDJUaDRmVE11cEFnTUJBQUdqVXpCUk1CMEdBMVVkRGdRV0JCVFdycDVUY3MNCkxKSnRxdWRyamF1ZHQ2M2RnaUJEQWZCZ05WSFNNRUdEQVdCZ1JXcnA1VGNzTEpKdHF1ZHJqYXVkdDYzZGdpQkRBDQpBQmdOVkhSTUJBZjhFQlRBREFRSC9NQTBHQ1NxR1NJYjNEUUVCQ3dVQUE0SUJBUUFHZmJGY0hocDdoT2hTc3o4DQpmZEtRcVdxbW1hQUJ4SkV0OFN4aTV2bll0YTFzdTZuUEhBUW9zVjllOEpZTmNqeDZlUHZmOHR2TWI3Y0VqdjVxDQpGSndPcTFNS0JGSXA5d1Z3WGp0OTZjbFVRZHQzK0ZRZDF0cE9rSnRpd2dDZW5DaityRTRQQ0w1T1JQUU5Hd3lyDQpkc2lxQUxTZ3NzeVBubnpwbjdvK0NxRXREbUtIdkd3T2d0MklSV0xwb0lpM2NDS1NndDhQdHY1bjI3WVpHQk5DDQplSkdVMjIwK09wMVBSQ0lWM01EM2grVGg4VUV4WUJRNDlmaUdvcnhZZHhYUm1iSXdaL0dFdXdJZXpvZlQzb0h4DQplS2x5VW5NYThuSXFlQ1RmYXNnNUhsa3R2bkw3M3oxUEw4SlIrYVZ3ZG1RaU1EMEw1eDNiU3pvSDhvY09hS0NMDQpNcWY3DQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tDQo=
-            </data>
-            <key>PayloadDescription</key>
-            <string>Certificate</string>
-            <key>PayloadDisplayName</key>
-            <string>Cáa Certificate</string>
-            <key>PayloadIdentifier</key>
-            <string>com.cabien.certificate</string>
-            <key>PayloadOrganization</key>
-            <string>Cá Biển</string>
-            <key>PayloadType</key>
-            <string>com.apple.security.root</string>
-            <key>PayloadUUID</key>
-            <string>12345678-1234-1234-1234-123456789abc</string>
-            <key>PayloadVersion</key>
-            <integer>1</integer>
+            <integer>1.0.0</integer>
         </dict>
     </array>
     <key>PayloadDisplayName</key>
-    <string>Cá</string>
+    <string>Cáa</string>
     <key>PayloadOrganization</key>
-    <string>Cá</string>
+    <string>Cáa</string>
     <key>PayloadDescription</key>
-    <string>© 2025 Cá
+    <string>© 2025 Cáa
 
-Profile DNS - Cá
+Profile DNS - Cáa
 
 • Chặn quảng cáo.</string>
     <key>PayloadIdentifier</key>
