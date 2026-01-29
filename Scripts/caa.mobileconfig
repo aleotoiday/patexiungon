@@ -18,11 +18,11 @@
                 <string>35a2a3.dns.nextdns.io</string>
             </dict>
             <key>PayloadDisplayName</key>
-            <string>Cáa</string>
+            <string>Cá</string>
             <key>PayloadIdentifier</key>
             <string>com.ca.dns.35a2a3</string>
             <key>PayloadOrganization</key>
-            <string>Cáa</string>
+            <string>Cá</string>
             <key>PayloadType</key>
             <string>com.apple.dnsSettings.managed</string>
             <key>PayloadUUID</key>
@@ -44,7 +44,7 @@ LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tDQpNSUlEcHpDQ0FvK2dBd0lCQWdJVWV6OTlqMVB5elRm
             <key>PayloadIdentifier</key>
             <string>com.ca.certificate</string>
             <key>PayloadOrganization</key>
-            <string>Cáa</string>
+            <string>Cá</string>
             <key>PayloadType</key>
             <string>com.apple.security.root</string>
             <key>PayloadUUID</key>
@@ -54,13 +54,13 @@ LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tDQpNSUlEcHpDQ0FvK2dBd0lCQWdJVWV6OTlqMVB5elRm
         </dict>
     </array>
     <key>PayloadDisplayName</key>
-    <string>Cáa</string>
+    <string>Cá</string>
     <key>PayloadOrganization</key>
-    <string>Cáa</string>
+    <string>Cá</string>
     <key>PayloadDescription</key>
-    <string>© 2025 Cáa
+    <string>© 2025 Cá
 
-Profile DNS - Cáa
+Profile DNS - Cá
 
 • Chặn quảng cáo.</string>
     <key>PayloadIdentifier</key>
